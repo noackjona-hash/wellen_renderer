@@ -15,7 +15,7 @@ const WIDTH: u32 = 1920;
 const HEIGHT: u32 = 1080;
 const FPS: u32 = 60;
 const DURATION_SECS: u32 = 5;
-const NUM_FRAMES: u32 = FPS * DURATION_SECS;
+const NUM_FRAMES: u32 = 1;
 
 async fn run() {
     let frames_dir = Path::new("frames");
